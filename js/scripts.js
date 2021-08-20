@@ -29,5 +29,6 @@ $(document).ready(function () {
     event.preventDefault();
     const number = $("#input").val();
     $("#output").html(mrRobogers(number));
+    $("#result").show();
   });
 });

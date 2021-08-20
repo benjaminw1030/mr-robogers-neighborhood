@@ -1,13 +1,28 @@
 body {
   text-align: center;
+  background-color: #0B0C10;
+  color: #C5C6C7;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.jumbotron {
+  padding: 20px;
+  text-align: center;
+  background-color: #45A29E;
+  color: #66FCF1;
+  margin-top: 15px;
 }
 
 #lyrics p {
   margin: 0;
 }
 
-.btn {
-  margin: 10px;
+.btn-dark {
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+  color: #C5C6C7;
+  background-color: #1F2833;
 }
 
 #input {
@@ -17,11 +32,18 @@ body {
 
 .card {
   margin-top: 10px;
+  padding: 10px;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
+  background-color: #1F2833;
 }
 
-#robogers {
+#result {
   display: none;
+}
+
+#result img {
+  max-height: 400px;
+  margin-bottom: 10px;
 }

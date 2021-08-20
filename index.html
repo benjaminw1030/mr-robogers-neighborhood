@@ -3,15 +3,20 @@
 
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Mr. Roboger's Neighborhood</title>
+  <title>Mr. Robogers' Neighborhood</title>
 </head>
 
 <body>
   <div class="container">
-    <h2>Welcome to Mr. Roboger's Neighborhood!</h2>
+    <div class ="jumbotron">
+    <h2>Welcome to Mr. Robogers' Neighborhood!</h2>
+  </div>
     <div id="lyrics">
       <p>It's a beautiful day in this neighborhood,</p>
       <p>A beautiful day for a neighbor,</p>
@@ -43,9 +48,13 @@
         <button type="submit" class="btn btn-dark" id="translate">Hi neighbor!</button>
       </div>
     </form>
-    <div id="output">
-
+    <div id="result" class="card">
+      <img src="img/mr-robogers.jpg" class="border rounded" alt="Mr. Robogers">
+      <div id="output">
+      </div>
     </div>
+    <p>Back to <a href="https://benjaminw1030.github.io/portfolio/">my portfolio</a>.</p>
+  </div>
 </body>
 
 </html>

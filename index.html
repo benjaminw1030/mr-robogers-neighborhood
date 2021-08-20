@@ -13,10 +13,11 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class ="jumbotron">
-    <h2>Welcome to Mr. Robogers' Neighborhood!</h2>
-  </div>
+  <div class="container" id="content">
+    <div class="jumbotron">
+      <h2>Welcome to Mr. Robogers' Neighborhood!</h2>
+      <h6>Enter a number to see Mr Robogers' response.</h6>
+    </div>
     <div id="lyrics">
       <p>It's a beautiful day in this neighborhood,</p>
       <p>A beautiful day for a neighbor,</p>
@@ -41,18 +42,22 @@
       <p>Won't you please,</p>
       <p>Please won't you be my neighbor?</p>
     </div>
-    <form id="mr-robogers">
-      <div class="form-group card">
-        <label for="input">Enter an integer, neighbor unit!</label>
-        <input id="input" class="form-control" type="text" placeholder="Numbers only, neighbor!" required>
-        <button type="submit" class="btn btn-dark" id="translate">Hi neighbor!</button>
-      </div>
-    </form>
-    <div id="result" class="card">
-      <img src="img/mr-robogers.jpg" class="border rounded" alt="Mr. Robogers">
-      <div id="output">
+    <div class="card">
+      <form id="mr-robogers">
+        <div class="form-group">
+          <label for="input">Enter an integer, neighbor unit!</label>
+          <input id="input" class="form-control" type="text" placeholder="Numbers only, neighbor!" required>
+          <button type="submit" class="btn btn-dark" id="translate">Hi neighbor!</button>
+        </div>
+      </form>
+      <div id="result">
+        <img src="img/mr-robogers.jpg" class="rounded" alt="Mr. Robogers">
+        <div id="output">
+        </div>
       </div>
     </div>
+  </div>
+  <div id="portfolio">
     <p>Back to <a href="https://benjaminw1030.github.io/portfolio/">my portfolio</a>.</p>
   </div>
 </body>

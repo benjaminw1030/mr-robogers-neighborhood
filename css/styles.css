@@ -13,6 +13,11 @@ body {
   margin-top: 15px;
 }
 
+#lyrics {
+  margin-bottom: 30px;
+  float: right;
+}
+
 #lyrics p {
   margin: 0;
 }
@@ -32,6 +37,7 @@ body {
 
 .card {
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   width: 50%;
   margin-right: auto;
@@ -46,4 +52,24 @@ body {
 #result img {
   max-height: 400px;
   margin-bottom: 10px;
+}
+
+a:link {
+  color: #66FCF1;
+}
+
+a:visited {
+  color: #45A29E;
+}
+
+#portfolio {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+
+#content {
+ min-height: 95vh;
+ display: inline-block;
 }

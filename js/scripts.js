@@ -1,24 +1,20 @@
-// "0" output "0" //
-// "1" output "Beep!" //
-// "2" output "Boop!" //
-// "3" output "Won't you be my neighbor?" //
-// "14" output "Beep!" //
-// "12" output "Boop!" //
-// "123" output "Won't you be my neighbor?" //
-// "10" output "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9 Beep!"
-//Business Logic
+// Business Logic //
 
 function mrRobogers(number) {
-  numberArray = number.split("");
-  if (numberArray.includes("3")) {
-    return "Won't you be my Neighbor?"
-  } else if (numberArray.includes("2")) {
-    return "Boop!"
-  } else if (numberArray.includes("1")) {
-    return "Beep!"
-  } else {
-    return number
+  outputArray = []
+  for (i = 0; i <= number; i++) {
+    let numberArray = i.toString().split("");
+    if (numberArray.includes("3")) {
+      outputArray.push("Won't you be my Neighbor?")
+    } else if (numberArray.includes("2")) {
+      outputArray.push("Boop!")
+    } else if (numberArray.includes("1")) {
+      outputArray.push("Beep!")
+    } else {
+      outputArray.push(i)
+    }
   }
+  return outputArray.join(", ")
 }
 
 mrRobogers("14");

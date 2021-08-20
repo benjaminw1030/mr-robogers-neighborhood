@@ -9,7 +9,11 @@
 //Business Logic
 
 function mrRobogers(number) {
+  if (number === "1") {
+    return "Beep!"
+  } else {
   return number
+  }
 }
 
 mrRobogers("0");

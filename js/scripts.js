@@ -34,11 +34,18 @@ $(document).ready(function () {
     const name = $("#name").val();
     const number = $("#input").val();
     const direction = $("input:radio[name=direction]:checked").val();
-    console.log(direction);
-    if (direction === "reversed") {
+    if (typeof mrRobogers(name, number) === "string") {
+      $("#output").html(mrRobogers(name, number));
+      $("#robogers-image").hide();
+      $("#error").show();
+    } else if (direction === "reversed") {
       $("#output").html(mrRobogers(name, number).reverse().join(", "));
+      $("#robogers-image").show();
+      $("#error").hide();
     } else {
       $("#output").html(mrRobogers(name, number).join(", "));
+      $("#robogers-image").show();
+      $("#error").hide();
     }
     $("#result").fadeIn();
   });

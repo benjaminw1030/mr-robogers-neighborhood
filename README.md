@@ -14,7 +14,7 @@
 
 ## Description
 
-The script run on this page will output a string of numbers following certain specs. The string will count from 0 to the inputted number, always returning "Won't you be my neighbor?" if one of the digits in an outputted number is 3, "Boop!" if one of the digits is 2, and "Beep!" if one of the digits is 1, in that order. For instance, an input of "14" will display: "0, "Beep!, Boop!, Won't you be my Neighbor?, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my Neighbor?", "Beep!""
+The script run on this page will output a string of numbers following certain specs. The string will count from 0 to the inputted number, always returning "Won't you be my neighbor?" if one of the digits in an outputted number is 3, "Boop!" if one of the digits is 2, and "Beep!" if one of the digits is 1, in that order. For instance, an input of "14" will display: "0, "Beep!, Boop!, Won't you be my Neighbor?, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my Neighbor?", "Beep!"". Try inputting non-numbers and numbers higher than 10000!
 
 ## Setup/Installation Requirements
 

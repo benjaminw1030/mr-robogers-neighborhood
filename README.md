@@ -45,4 +45,9 @@ Expected Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9 B
 - Test: "It should return an error if an integer is not entered."  
 Code: const number = "Hello Neighbor!";  
 mrRobogers(number);  
-Expected Output: "ERROR: PLEASE ENTER AN INTEGER, NEIGHBOR UNIT"
+Expected Output: "ERROR: PLEASE ENTER AN INTEGER, NEIGHBOR UNIT."
+
+- Test: "It should return an error if a number over 10,000 is entered."  
+Code: const number = "100000";  
+mrRobogers(number);  
+Expected Output: "ERROR: NUMBER TOO LARGE, NEIGHBOR UNIT. THIS UNIT HAS ABORTED PROCESSING TO BE A GOOD NEIGHBOR AND AVOID FLOODING YOUR BROWSER."

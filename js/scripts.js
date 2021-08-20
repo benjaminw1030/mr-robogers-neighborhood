@@ -9,7 +9,9 @@
 //Business Logic
 
 function mrRobogers(number) {
-  if (number === "2") {
+  if (number === "3") {
+    return "Won't you be my Neighbor?"
+  } else if (number === "2") {
     return "Boop!"
   } else if (number === "1") {
     return "Beep!"

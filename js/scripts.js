@@ -20,7 +20,7 @@ function mrRobogers(number) {
         outputArray.push(i)
       }
     }
-    return outputArray.join(", ")
+    return outputArray
   }
 }
 
@@ -32,8 +32,13 @@ $(document).ready(function () {
   $("form#mr-robogers").submit(function (event) {
     event.preventDefault();
     const number = $("#input").val();
-    if { }
-    $("#output").html(mrRobogers(number));
+    const direction = $("input:radio[name=direction]:checked").val();
+    console.log(direction);
+    if (direction === "reversed") {
+      $("#output").html(mrRobogers(number).reverse().join(", "));
+    } else {
+      $("#output").html(mrRobogers(number).join(", "));
+    }
     $("#result").fadeIn();
   });
 });

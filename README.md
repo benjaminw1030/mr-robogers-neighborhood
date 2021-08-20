@@ -41,3 +41,8 @@ Expected Output: "Won't you be my neighbor?"
 Code: const number = "10";  
 mrRobogers(number);  
 Expected Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9 Beep!"
+
+- Test: "It should return an error if an integer is not entered."  
+Code: const number = "Hello Neighbor!";  
+mrRobogers(number);  
+Expected Output: "ERROR: PLEASE ENTER AN INTEGER, NEIGHBOR UNIT"

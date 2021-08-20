@@ -1,7 +1,27 @@
+body {
+  text-align: center;
+}
+
 #lyrics p {
   margin: 0;
 }
 
 .btn {
+  margin: 10px;
+}
+
+#input {
+  margin: auto;
+  width: 90%;
+}
+
+.card {
   margin-top: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#robogers {
+  display: none;
 }

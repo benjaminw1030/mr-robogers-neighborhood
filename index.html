@@ -47,6 +47,19 @@
         <div class="form-group">
           <label for="input">Enter an integer, neighbor unit!</label>
           <input id="input" class="form-control" type="text" placeholder="Numbers only, neighbor!" required>
+          <label for="input">How would you like Mr. Robogers to count, neighbor unit?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="direction" value="normal" checked>
+              Count up!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="direction" value="reversed">
+              Count down!
+            </label>
+          </div>
           <button type="submit" class="btn btn-dark" id="translate">Hi neighbor!</button>
         </div>
       </form>

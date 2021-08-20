@@ -24,10 +24,15 @@ function mrRobogers(number) {
   }
 }
 
+function robogersReverse(number) {
+  mrRobogers(number);
+}
+
 $(document).ready(function () {
   $("form#mr-robogers").submit(function (event) {
     event.preventDefault();
     const number = $("#input").val();
+    if { }
     $("#output").html(mrRobogers(number));
     $("#result").fadeIn();
   });

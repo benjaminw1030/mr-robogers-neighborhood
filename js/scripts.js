@@ -1,6 +1,6 @@
 // "0" output "0" //
-// "1" output "Beep!"
-// "2" output "Boop!"
+// "1" output "Beep!" //
+// "2" output "Boop!" //
 // "3" output "Won't you be my neighbor?"
 // "14" output "Beep!"
 // "12" output "Boop!"
@@ -9,11 +9,13 @@
 //Business Logic
 
 function mrRobogers(number) {
-  if (number === "1") {
+  if (number === "2") {
+    return "Boop!"
+  } else if (number === "1") {
     return "Beep!"
   } else {
-  return number
+    return number
   }
 }
 
-mrRobogers("0");
+mrRobogers("2");

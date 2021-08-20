@@ -17,6 +17,10 @@ body {
   margin-bottom: 30px;
   float: right;
 }
+#lyrics img {
+width: 70%;
+margin-top: 10px;
+}
 
 #lyrics p {
   margin: 0;
